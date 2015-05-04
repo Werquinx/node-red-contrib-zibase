@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-zibase",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Node Red Input Node that reads all events from Zibase",
   "author": {
     "name": "Xavier WERQUIN",
@@ -22,10 +22,5 @@
     "nodes": {
       "Zibase": "zibase.js"
     }
-  },
-  "readme": "README.md",
-  "_id": "node-red-contrib-zibase@0.1.0",
-  "scripts": {},
-  "_shasum": "1d9e7ae880e604f014bca0f618d3971523f513d3",
-  "_from": "node-red-contrib-zibase@*"
+  }
 }
