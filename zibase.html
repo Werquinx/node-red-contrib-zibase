@@ -27,5 +27,23 @@
 </script>
 
 <script type="text/x-red" data-help-name="Zibase">
-    <p>Get all Zibase events in payload</p>
+
+    Input Node for NODE-RED which will configure itself to listen on UDP port for all Zibase events. Uses ZAPI 1, cf http://www.zodianet.com/zapi.html
+<br><br>
+Works only if Node-Red server runs on same network as Zibase. Make sure your Node-Red server firewall allows incoming UDP packets on port 17100 !
+<br><br>
+You only need to configure local IP address of Zibase box.
+<br><br>
+Puts the received messages in msg.payload
+<br><br>
+Parses additional info such as :
+<br><br>
+msg.id<br>
+msg.level<br>
+msg.temperature<br>
+msg.humidity<br>
+msg.rf<br>
+msg.device<br>
+<br>
+Only tested on ZIBASE Classic : http://www.zodianet.com/toolbox-zibase/zibase-classic.html
 </script>
