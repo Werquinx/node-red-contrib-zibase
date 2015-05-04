@@ -5,6 +5,8 @@ Uses ZAPI 1, cf http://www.zodianet.com/zapi.html
 
 Works only if Node-Red server runs on same network as Zibase
 
+You only need to configure local IP address of Zibase box.
+
 Puts the received messages in msg.payload
 
 Parses additional info such as :
