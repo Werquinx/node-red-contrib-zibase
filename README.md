@@ -17,5 +17,6 @@ Parses additional info such as :
 * msg.temperature
 * msg.humidity
 * msg.rf
+* msg.device
 
 Only tested on ZIBASE Classic : [http://www.zodianet.com/toolbox-zibase/zibase-classic.html](http://www.zodianet.com/toolbox-zibase/zibase-classic.html)
