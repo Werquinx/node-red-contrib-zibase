@@ -3,6 +3,8 @@
 Input Node for NODE-RED which will configure itself to listen on UDP port for all Zibase events.
 Uses ZAPI 1, cf [http://www.zodianet.com/zapi.html](http://www.zodianet.com/zapi.html)
 
+Based on original code from : [https://github.com/onlinux/Zibase-log](https://github.com/onlinux/Zibase-log)
+
 **Works only if Node-Red server runs on same network as Zibase.**
 **Make sure your Node-Red server firewall allows incoming UDP packets on port 17100 !**
 
