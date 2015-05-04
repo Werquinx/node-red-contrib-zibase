@@ -10,10 +10,10 @@ You only need to configure local IP address of Zibase box.
 Puts the received messages in msg.payload
 
 Parses additional info such as :
-msg.id
-msg.level
-msg.temperature
-msg.humidity
-msg.rf
+*msg.id
+*msg.level
+*msg.temperature
+*msg.humidity
+*msg.rf
 
 Only tested on ZIBASE Classic : http://www.zodianet.com/toolbox-zibase/zibase-classic.html
